@@ -5,17 +5,17 @@ import Product from "./Product";
 function Home() {
     return (
         <div className="home">
-            <div className="home__container">
+            <div className="home__container">                
                 <img
                     className="home__image"
                     src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
                     alt=""
                 />
-
+                              
                 <div className="home__row">
                     <Product 
                         id="12321341"
-                        title='The lean startup' 
+                        title='The lean startup: How Constant Innovation Creates Radically Successful Busineses Paperback' 
                         price={29.99}
                         image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400.jpg'                        
                         rating={5}
@@ -28,10 +28,10 @@ function Home() {
                         Glass Bowl" 
                         price={239.00}
                         rating={4}
-                        image="https://ecs7.tokopedia.net/img/cache/700/VqbcmM/2020/7/11/fccb2363-73e4-448f-b920-ccb797cb5380.png"                        
+                        image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"                        
                     />                                       
                 </div>
-
+ 
                 <div className="home__row">
                     <Product 
                         id="4903850"
